@@ -1,7 +1,7 @@
 body{
     background-color: antiquewhite;
     margin: 0;
-    padding: 0;       
+    padding: 70px;       
 }
 
 .main-container{
@@ -10,6 +10,9 @@ body{
     margin: 0 auto;
     padding: 30px;
     border-radius: 20px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .container-wrapper{
@@ -34,8 +37,6 @@ section h1{
     padding: 20px;
     background-color: rgb(255, 248, 248);
     border-radius: 20px;
-    padding: 4px;
-    border-bottom: 1px solid black ;
 }
 .prep-container span{
     font-weight: bold;
@@ -56,5 +57,34 @@ section h1{
     margin-bottom: 15px;
 }
 .Ingredients-container{
-    margin-bottom: ;
+    margin-bottom: 15px;
+}
+
+.Instructions-container h2{
+    color: brown;
+}
+
+.Instructions-container li{
+margin-bottom: 15px;
+}
+
+.Instructions-container span{
+    font-weight: bold;
+}
+
+.Nutrition-container h2{
+color: brown;
+}
+
+.Nutrition-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 6px;
+}
+
+.Nutrition-container span{
+    color: brown;
+    font-weight: bolder;
 }
