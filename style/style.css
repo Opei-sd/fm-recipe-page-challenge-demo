@@ -6,9 +6,22 @@ body{
 
 .main-container{
     background-color: white;
-    max-width: 20rem;
-    height: 20rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center ; 
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.container-wrapper{
+    margin-top: 5rem;
+}
+
+.main-container img {
+width: 100%;
+object-fit: contain;
+}
+
+.image-wrapper{
+    border-radius: 20px;
+    overflow: hidden;
 }
