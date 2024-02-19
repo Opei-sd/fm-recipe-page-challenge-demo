@@ -8,7 +8,7 @@ body{
     background-color: white;
     width: 40%;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     border-radius: 20px;
 }
 
@@ -24,4 +24,37 @@ object-fit: contain;
 .image-wrapper{
     border-radius: 20px;
     overflow: hidden;
+}
+
+section h1{
+    font-size: 32px;
+}
+
+.prep-container{
+    padding: 20px;
+    background-color: rgb(255, 248, 248);
+    border-radius: 20px;
+    padding: 4px;
+    border-bottom: 1px solid black ;
+}
+.prep-container span{
+    font-weight: bold;
+}
+
+.prep-container{
+    margin-bottom: 15px;
+}
+
+.prep-container h4{
+    color:rgb(140, 10, 140)
+}
+
+.Ingredients-container h2{
+    color: brown;
+}
+.Ingredients-container li{
+    margin-bottom: 15px;
+}
+.Ingredients-container{
+    margin-bottom: ;
 }
