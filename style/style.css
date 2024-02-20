@@ -1,96 +1,77 @@
-body{
-    background-color: antiquewhite;
-    margin: 0;
-    padding: 70px;       
+body {
+  background-color: antiquewhite;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.Heading1{
-    font-family: cursive
-}
-.main-container{
-    background-color: white;
-    width: 40%;
-    margin: 0 auto;
-    padding: 30px;
-    border-radius: 20px;
-    overflow: hidden;
-    
-
+.image_wrapper img {
+  border-radius: 20px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.container-wrapper{
-    margin-top: 5rem;
+.main-container {
+  background-color: white;
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 20px;
 }
 
-.main-container img {
-width: 100%;
-object-fit: contain;
+.container-wrapper {
+  margin-top: 5rem;
 }
 
-.image-wrapper{
-    border-radius: 20px;
-    overflow: hidden;
+section h1 {
+  font-size: 32px;
 }
 
-section h1{
-    font-size: 32px;
+.preparation-container {
+  padding: 30px;
+  background-color: rgb(255, 248, 248);
+  border-radius: 20px;
+}
+.preparation-container span {
+  font-weight: bold;
 }
 
-.preparation-container{
-    padding: 30px;
-    background-color: rgb(255, 248, 248);
-    border-radius: 20px;
-}
-.preparation-container span{
-    font-weight: bold;
+.preparation-container {
+  margin-bottom: 15px;
 }
 
-.preparation-container{
-    margin-bottom: 15px;
+.preparation-container h4 {
+  color: rgb(140, 10, 140);
 }
 
-.preparation-container h4{
-    color:rgb(140, 10, 140)
+h2{
+  color: brown;
 }
 
-.Ingredients-container h2{
-    font-family: cursive;
-    color: brown;
+.Ingredients-container li {
+  margin-bottom: 15px;
 }
-.Ingredients-container li{
-    margin-bottom: 15px;
-}
-.Ingredients-container{
-    margin-bottom: 15px;
+.Ingredients-container {
+  margin-bottom: 15px;
 }
 
-.Instructions-container h2{
-    font-family: cursive;
-    color: brown;
+.Instructions-container li {
+  margin-bottom: 15px;
 }
 
-.Instructions-container li{
-margin-bottom: 15px;
+.Instructions-container span {
+  font-weight: bold;
 }
 
-.Instructions-container span{
-    font-weight: bold;
+.Nutrition-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding: 6px;
 }
 
-.Nutrition-container h2{
-    font-family: cursive;
-color: brown;
-}
-
-.Nutrition-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding: 6px;
-}
-
-.Nutrition-container span{
-    color: brown;
-    font-weight: bolder;
+.Nutrition-container span {
+  color: brown;
+  font-weight: bolder;
 }
