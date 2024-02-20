@@ -4,6 +4,9 @@ body{
     padding: 70px;       
 }
 
+.Heading1{
+    font-family: cursive
+}
 .main-container{
     background-color: white;
     width: 40%;
@@ -11,7 +14,7 @@ body{
     padding: 30px;
     border-radius: 20px;
     overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
 
@@ -33,24 +36,25 @@ section h1{
     font-size: 32px;
 }
 
-.prep-container{
-    padding: 20px;
+.preparation-container{
+    padding: 30px;
     background-color: rgb(255, 248, 248);
     border-radius: 20px;
 }
-.prep-container span{
+.preparation-container span{
     font-weight: bold;
 }
 
-.prep-container{
+.preparation-container{
     margin-bottom: 15px;
 }
 
-.prep-container h4{
+.preparation-container h4{
     color:rgb(140, 10, 140)
 }
 
 .Ingredients-container h2{
+    font-family: cursive;
     color: brown;
 }
 .Ingredients-container li{
@@ -61,6 +65,7 @@ section h1{
 }
 
 .Instructions-container h2{
+    font-family: cursive;
     color: brown;
 }
 
@@ -73,6 +78,7 @@ margin-bottom: 15px;
 }
 
 .Nutrition-container h2{
+    font-family: cursive;
 color: brown;
 }
 
