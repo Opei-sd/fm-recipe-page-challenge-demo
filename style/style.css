@@ -75,3 +75,19 @@ h2{
   color: brown;
   font-weight: bolder;
 }
+
+.fat-class{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 6px;
+}
+
+.fat-class span {
+  color: brown;
+  font-weight: bolder;
+} 
+
+.nut-a, .nut-b{
+  width: 50%;
+}
